@@ -1,0 +1,57 @@
+[
+  {
+    "marca": "Hyundai",
+    "modelo": "IX35",
+    "ano": 2017,
+    "km": 100.000,
+    "cor": "Prata",
+    "placa": "JJJ55CD",
+    "preco": 83.000,
+    "motor": 2.0,
+    "cambio": "AUTOMATICO",
+    "combustivel": "FLEX",
+    "fotos_url": [
+      "https://image.webmotors.com.br/_fotos/anunciousados/gigante/2025/202501/20250131/hyundai-ix35-2.0-mpfi-gl-16v-flex-4p-automatico-wmimagem09560125837.jpg",
+      "https://image.webmotors.com.br/_fotos/anunciousados/gigante/2025/202501/20250131/hyundai-ix35-2.0-mpfi-gl-16v-flex-4p-automatico-wmimagem09560312355.jpg"
+    ],
+    "opcionais": [
+      "Computador de bordo",
+      "Ar condicionado",
+      "Controle de tração",
+      "ABS",
+      "Rodas de liga leve",
+      "GPS",
+      "Travas elétricas",
+      "Vidros elétricos",
+      "Retrovisor fotocrômico"
+    ]
+  },
+  {
+    "marca": "KIA",
+    "modelo": "SPORTAGE",
+    "ano": 2023,
+    "km": 20.000,
+    "motor": 1.6,
+    "cor": "Branco",
+    "placa": "DD55223",
+    "preco": 265.000,
+    "cambio": "AUTOMATICO",
+    "combustivel": "FLEX",
+    "fotos_url": [
+      "https://image.webmotors.com.br/_fotos/anunciousados/gigante/2025/202502/20250219/kia-sportage-1-6-tgdi-mhev-ex-prestige-dct-wmimagem20103006838.webp",
+      "https://image.webmotors.com.br/_fotos/anunciousados/gigante/2025/202502/20250219/kia-sportage-1-6-tgdi-mhev-ex-prestige-dct-wmimagem20103098125.webp",
+      "https://image.webmotors.com.br/_fotos/anunciousados/gigante/2025/202502/20250219/kia-sportage-1-6-tgdi-mhev-ex-prestige-dct-wmimagem20103134051.webp"
+    ],
+    "opcionais": [
+      "Computador de bordo",
+      "Ar condicionado",
+      "Banco com regulagem de altura",
+      "Freio ABS",
+      "Desembaçador traseiro",
+      "GPS",
+      "Teto solar", "Controle automático de velocidade",
+      "Volante com regulagem de altura",
+      "Travas elétricas", "Sensor de estacionamento"
+    ]
+  }
+]

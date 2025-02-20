@@ -1,0 +1,27 @@
+{
+  "marca": "Hyundai",
+  "modelo": "IX35",
+  "ano": 2018,
+  "km": 71.119,
+  "cor": "Prata",
+  "placa": "JJJ55CD",
+  "preco": 89.900,
+  "motor": 2.0,
+  "cambio": "AUTOMATICO",
+  "combustivel": "FLEX",
+  "fotos_url": [
+    "https://image.webmotors.com.br/_fotos/anunciousados/gigante/2025/202502/20250203/hyundai-ix35-2-0-mpfi-gl-16v-flex-4p-automatico-wmimagem14323492018.webp",
+    "https://image.webmotors.com.br/_fotos/anunciousados/gigante/2025/202502/20250203/hyundai-ix35-2-0-mpfi-gl-16v-flex-4p-automatico-wmimagem14323514612.webp"
+  ],
+  "opcionais": [
+    "Computador de bordo",
+    "Ar condicionado",
+    "Controle de tração",
+    "ABS",
+    "Rodas de liga leve",
+    "GPS",
+    "Travas elétricas",
+    "Vidros elétricos",
+    "Retrovisor fotocrômico"
+  ]
+}
