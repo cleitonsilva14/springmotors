@@ -42,7 +42,9 @@ public class CarroController {
                             responseCode = "200", description = "Executado com sucesso",
                             content = @Content(
                                     mediaType = "application/json",
-                                    schema = @Schema(implementation = CarroResponseDto.class)
+                                    schema = @Schema(
+                                            implementation = CarroResponseDto.class
+                                    )
                             )
                     )
             }
