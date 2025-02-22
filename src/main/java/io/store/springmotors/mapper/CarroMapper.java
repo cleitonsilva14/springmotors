@@ -17,6 +17,11 @@ public class CarroMapper {
         return new ModelMapper().map(carroRequestDto, CarroModel.class);
     }
 
+    /**
+     * Método responsável por mapear um objeto CarroModel para CarroResponseDto
+     * @param carro CarroModel
+     * @return CarroResponseDto
+     * */
     // de CarroModel para CarroResponseDto
     public static CarroResponseDto toDto(CarroModel carro){
         ModelMapper modelMapper = new ModelMapper();

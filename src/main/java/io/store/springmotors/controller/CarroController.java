@@ -60,7 +60,7 @@ public class CarroController {
 
         Optional<CarroModel> carroModelOptional = carroService.findCarroByUUID(uuid);
         if(carroModelOptional.isPresent()){
-            return ResponseEntity.status(HttpStatus.OK).body(carroModelOptional.get());
+            return ResponseEntity.status(HttpStatus.OK).body(CarroMapper.toDto(carroModelOptional.get()));
         }
 
         return ResponseEntity.status(HttpStatus.NOT_FOUND).body(uuid + "não encontrado!");
@@ -84,6 +84,7 @@ public class CarroController {
      *
      * Post Mapping oneCar
      * */
+
     /*
     @PostMapping
     public ResponseEntity<CarroResponseDto> save(@RequestBody @Valid CarroRequestDto carroRequestDto){
