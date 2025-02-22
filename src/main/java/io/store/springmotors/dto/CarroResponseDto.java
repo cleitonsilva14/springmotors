@@ -1,5 +1,7 @@
 package io.store.springmotors.dto;
 
+import io.store.springmotors.enums.Cambio;
+import io.store.springmotors.enums.Combustivel;
 import lombok.Getter;
 import lombok.Setter;
 
@@ -18,8 +20,8 @@ public class CarroResponseDto{
     String placa;
     BigDecimal preco;
     Float motor;
-    String cambio;
-    String combustivel;
+    Cambio cambio;
+    Combustivel combustivel;
     List<String> opcionais;
     List<String> fotos_url;
 }

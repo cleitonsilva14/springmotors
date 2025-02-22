@@ -1,6 +1,8 @@
 package io.store.springmotors.dto;
 
 
+import io.store.springmotors.enums.Cambio;
+import io.store.springmotors.enums.Combustivel;
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.NotNull;
 import jakarta.validation.constraints.Positive;
@@ -39,11 +41,11 @@ public class CarroRequestDto{
         @NotNull(message = "motor não pode ser null")
         Float motor;
 
-        @NotBlank(message = "câmbio deve ser informado")
-        String cambio;
+        //@NotBlank(message = "câmbio deve ser informado")
+        Cambio cambio;
 
-        @NotBlank(message = "combustível deve ser informado")
-        String combustivel;
+        //@NotBlank(message = "combustível deve ser informado")
+        Combustivel combustivel;
 
         List<String> opcionais;
 

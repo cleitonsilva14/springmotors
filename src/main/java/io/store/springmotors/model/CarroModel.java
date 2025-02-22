@@ -33,7 +33,7 @@ public class CarroModel {
     private Integer ano;
 
     @Column(name = "km", nullable = false)
-    private Double km;
+    private Float km;
 
     @Column(name = "cor", length = 45, nullable = false)
     private String cor;
@@ -44,14 +44,20 @@ public class CarroModel {
     @Column(name = "preco", nullable = true)
     private BigDecimal preco;
 
-    @Column(name = "cambio", nullable = false)
-    private String cambio;
+    //@Column(name = "cambio", nullable = false)
+    //private String cambio;
 
     @Column(name = "motor", nullable = false)
     private Float motor;
 
-    @Column(name = "combustivel", nullable = false)
-    private String combustivel;
+    //@Column(name = "combustivel", nullable = false)
+    //private String combustivel;
+
+    @Enumerated(EnumType.STRING)
+    private Cambio cambio;
+
+    @Enumerated(EnumType.STRING)
+    private Combustivel combustivel;
 
     @Column(name = "opcionais", nullable = true)
     private List<String> opcionais;
