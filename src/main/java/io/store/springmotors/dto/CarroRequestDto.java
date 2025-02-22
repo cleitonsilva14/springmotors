@@ -3,10 +3,7 @@ package io.store.springmotors.dto;
 
 import io.store.springmotors.enums.Cambio;
 import io.store.springmotors.enums.Combustivel;
-import jakarta.validation.constraints.NotBlank;
-import jakarta.validation.constraints.NotNull;
-import jakarta.validation.constraints.Positive;
-import jakarta.validation.constraints.PositiveOrZero;
+import jakarta.validation.constraints.*;
 import lombok.Getter;
 import lombok.Setter;
 
@@ -32,6 +29,7 @@ public class CarroRequestDto{
         @NotBlank(message = "cor deve ser informada")
         String cor;
 
+        @Pattern(regexp = "^[A-Z]{3}[0-9]{1}[A-Z]{1}[0-9]{2}$", message = "placa informada fora do padrão")
         @NotBlank(message = "placa deve ser informada")
         String placa;
 
