@@ -68,7 +68,7 @@ public class CarroModel {
             joinColumns = @JoinColumn(name = "foto_id")
     )
     @Column(name = "fotos_url")
-    private List<String> fotos_url;
+    private List<String> fotosUrl;
 
 
 
