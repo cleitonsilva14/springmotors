@@ -23,5 +23,5 @@ public class CarroResponseDto{
     Cambio cambio;
     Combustivel combustivel;
     List<String> opcionais;
-    List<String> fotos_url;
+    List<String> fotosUrl;
 }
