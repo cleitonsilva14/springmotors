@@ -37,11 +37,11 @@ public class CarroService {
     @Transactional
     public CarroModel saveCar(CarroModel car) {
 
-        if (carroRepository.existsByPlaca(car.getPlaca())) {
+        try {
+            return carroRepository.save(car);
+        }catch (org.springframework.dao.DataIntegrityViolationException exception){
             throw new PlacaUniqueViolationException(String.format("placa [%s] já cadastrada", car.getPlaca()));
         }
-        return carroRepository.save(car);
-
 
 
     }

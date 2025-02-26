@@ -88,7 +88,7 @@ public class CarroController {
 
 
     @PostMapping
-    public ResponseEntity<CarroResponseDto> save(@Valid @RequestBody CarroRequestDto carroRequestDto){
+    public ResponseEntity<CarroResponseDto> save(@RequestBody @Valid CarroRequestDto carroRequestDto){
         CarroModel carro = carroService.saveCar(CarroMapper.toCarro(carroRequestDto));
         return ResponseEntity.status(HttpStatus.CREATED).body(CarroMapper.toDto(carro));
     }
