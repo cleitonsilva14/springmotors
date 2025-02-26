@@ -11,5 +11,5 @@ import java.util.UUID;
 public interface CarroRepository extends JpaRepository<CarroModel, UUID> {
 
     Optional<CarroModel> findByPlaca(String placa);
-
+    boolean existsByPlaca(String placa);
 }

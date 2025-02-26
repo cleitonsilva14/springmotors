@@ -38,7 +38,7 @@ public class CarroModel {
     @Column(name = "cor", length = 45, nullable = false)
     private String cor;
 
-    @Column(name = "placa", length = 7, nullable = true, unique = true)
+    @Column(name = "placa", length = 7, nullable = false, unique = true)
     private String placa;
 
     @Column(name = "preco", nullable = true)

@@ -33,7 +33,6 @@ public class CarroController {
 
     private final CarroService carroService;
 
-
     @Operation(
             summary = "Criar um novo carro",
             description = "Recurso responsável por obter todos os carros cadastrados",
@@ -67,6 +66,7 @@ public class CarroController {
 
     }
 
+    /*
     @PostMapping
     public ResponseEntity<List<CarroModel>> saveAll(@RequestBody @Valid List<CarroRequestDto> carroRequestDtoList){
 
@@ -78,19 +78,20 @@ public class CarroController {
 
         return ResponseEntity.status(HttpStatus.OK).body(carroService.saveAll(carros));
 
-    }
+    }*/
+
 
     /**
      *
      * Post Mapping oneCar
      * */
 
-    /*
+
     @PostMapping
-    public ResponseEntity<CarroResponseDto> save(@RequestBody @Valid CarroRequestDto carroRequestDto){
+    public ResponseEntity<CarroResponseDto> save(@Valid @RequestBody CarroRequestDto carroRequestDto){
         CarroModel carro = carroService.saveCar(CarroMapper.toCarro(carroRequestDto));
         return ResponseEntity.status(HttpStatus.CREATED).body(CarroMapper.toDto(carro));
-    }*/
+    }
 
 
 }

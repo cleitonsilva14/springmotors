@@ -4,13 +4,15 @@ package io.store.springmotors.dto;
 import io.store.springmotors.enums.Cambio;
 import io.store.springmotors.enums.Combustivel;
 import jakarta.validation.constraints.*;
+import lombok.AllArgsConstructor;
 import lombok.Getter;
+import lombok.NoArgsConstructor;
 import lombok.Setter;
 
 import java.math.BigDecimal;
 import java.util.List;
 
-@Getter @Setter
+@Getter @Setter @AllArgsConstructor @NoArgsConstructor
 public class CarroRequestDto{
 
         @NotBlank(message = "marca não pode estar em branco")
